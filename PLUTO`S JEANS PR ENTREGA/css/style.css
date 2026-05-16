@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "preconnect", sans-serif;
+    font-size: 1.6rem;
+    background-color: #8ca5ac;
+    color: #541e26;
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main {
+    width: 80% ;
+    margin: auto;
+    padding-bottom: 2rem;
+
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 3.5rem;
+   font-weight: 800;
+   line-height: 1.15;
+    margin: 3rem 0;
+}  
+h2 {
+    color: #541e26;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.15;
+    text-align: center;
+    margin: 3rem 0;
+} 
+
+.btn {
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1.6rem;
+    border-radius: 1rem;
+
+}   
+
+header,footer {
+    background-color: #541e26;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.div-logo {
+    margin-left: 2rem;
+    font-weight: bold; 
+}
+.logo, .header-nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 3rem;
+    display: inline-block;
+    padding: 2rem;
+}   
+.header-nav{
+    margin-right: 2rem;
+}
+
+.header-nav ul,
+footer .footer-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.footer-list img {
+    width: 5rem;
+    padding: 0.5rem;
+    height: 30px;
+
+}
+
+.bg-primary {
+    background-color: #782c37;
+ 
+}
+.bg-secondary {
+    background-color: #541e26;
+}
+.text-light {
+    color: #fff;
+}
+.text-dark {
+    color: #c9bdbe;
+}
+
+.parrafo {
+    width: 80%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.contenedor-tarjetas {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+    
+}
+
+.card {
+    background-color: #fff;
+    width: 30rem;
+ 
+    border-radius: 1rem;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
